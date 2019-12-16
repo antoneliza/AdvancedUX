@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>See your journey</title>
+    <meta name="subject" content="Traveling app made by DSB">
+    <meta name="keywords" content="DSB, traveling, tickets, journey, calendar, schedule">
+    <meta name="description" content="Traveling app developed by DSB in collaboration with local traveling companies in order to develop a solution that satisfy every traveler's needs">
+    <meta name="language" content="EN">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <!-- Your custom styles (optional) -->
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+
+    <div class="container-fluid6">
+
+        <div class="row">
+            <div class="col-12" id="navbar">
+
+                <a href="index.html">
+                    <img src="images/dsb.png" class="logo"></a>
+                <a href="shoppingcart.html"><img src="images/shoppingcart.svg" class="shoppingcart">
+                </a>
+                <a href="profile.html"><img src="images/profile.svg" class="profile">
+                </a>
+
+                <div class="burger"> <img src="images/menu.svg"></div>
+                <nav>
+                    <ul class="main">
+
+                        <li><a href="yourtickets.html">
+                                <img src="images/tickets.svg"><br>
+                                Tickets</a></li>
+
+                        <li><a href="index.html">
+                                <img src="images/journeys.svg"><br>
+                                Your journeys</a></li>
+
+                        <li><a href="schedule.html">
+                                <img src="images/schedule.svg"><br>
+                                Your schedule</a></li>
+
+
+
+
+                    </ul>
+
+                </nav>
+                <div class="overlay"></div>
+            </div>
+
+
+        </div>
+
+        <div class="row" id="title">
+            <div class="col-12" id="titleline">
+                <h1>Your journeys</h1>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12" id="journeys">
+                <a href="updatedjourneys.html" class="savedjourneys2">Saved journeys</a>
+                <a href="newjourney.html" class="newjourney2">New journey</a>
+
+            </div>
+
+        </div>
+
+        <div class="row">
+            <div class="col-12" id="updatedjourney">
+                <img src="images/journey.svg"></div>
+
+        </div>
+        
+        <div class="row">
+            <div class="col-12" id="editsave">
+                <a href="" class="editjourney">Edit journey</a>
+                <a href="updatedjourneys.html" class="savejourney">Save</a>
+            
+            </div>
+        
+        
+        </div>
+
+
+
+
+    </div>
+
+    <!-- SCRIPTS -->
+    <!-- JQuery -->
+    <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <script>
+        $('.burger, .overlay').click(function() {
+            $('.burger').toggleClass('clicked');
+            $('.overlay').toggleClass('show');
+            $('nav').toggleClass('show');
+            $('body').toggleClass('overflow');
+        });
+
+    </script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+
+    </script>
+
+
+
+
+</body>
+
+</html>
